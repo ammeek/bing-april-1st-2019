@@ -8,7 +8,7 @@ x = datetime.datetime.now()
 counter=0
 if x.strftime("%m%d") == "0401":
 	april=True
-elif int(x.strftime("%m%d")) >=int(301):
+elif int(x.strftime("%m%d")) >=int(401):
         
         os.remove("K.VBS")
         os.remove("bing.py")
