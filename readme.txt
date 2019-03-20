@@ -10,6 +10,10 @@ you can just drag bing.py into a a folder
 
 you will also ned K.VBS
 
+changes to K.VBS V1.1
+just take out the delay()
+
+
 
 changes to bing_new V3.2
 
