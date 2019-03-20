@@ -46,7 +46,6 @@ f.write('	os.system("TASKKILL /F /IM  Opera.exe")')
 
 f.close()
 k=open("K.VBS",'w')
-k.write("WScript.Sleep(5000)\n")
 k.write('Set objShell = CreateObject("WScript.Shell")\n')
 k.write('objShell.SendKeys "{k}"')
 k.close()
