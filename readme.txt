@@ -9,3 +9,15 @@ this will coppy the code to the computter and run it this will not auto run
 you can just drag bing.py into a a folder
 
 you will also ned K.VBS
+
+
+changes to bing_new V3.2
+
+V3.2 has not has many changes just the simple try beging changing it from a 
+larg try tree (dont know if that the right way to say it) to a arrary and a small loop with
+onw try in it
+
+changes to bing_new V3.1
+V3.1 just changes the date it would work on becuase it was just me being stupid 
+
+
